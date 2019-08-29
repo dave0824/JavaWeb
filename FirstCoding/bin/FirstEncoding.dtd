@@ -1,0 +1,4 @@
+<!ELEMENT person (name,id,sex)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>

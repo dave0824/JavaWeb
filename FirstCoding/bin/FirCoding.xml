@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE person SYSTEM "FirstEncoding.dtd"> -->
+<!DOCTYPE person[
+	<!ELEMENT person (name+,id*,sex?,age,birthday)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT id (#PCDATA)>
+	<!ELEMENT sex (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+	<!ELEMENT birthday (#PCDATA)>
+	
+	<!ATTLIST name ID1 CDATA #REQUIRED >
+	<!ATTLIST id id2 (110|119|120) #REQUIRED>
+	<!ATTLIST sex ID3 ID #REQUIRED>
+	<!ATTLIST age ID4 CDATA #IMPLIED>
+	<!ATTLIST birthday ID5 CDATA #FIXED "ABC">
+	<!ENTITY TEXT "19980824">
+
+]>
+<person>
+	<name ID1="111">dave</name>
+	<!-- <name>dave</name> -->
+	<id id2="110">11111</id>
+	<sex ID3="DDD">woman</sex>
+	<age >20</age>
+	<birthday>&TEXT;</birthday>
+</person>

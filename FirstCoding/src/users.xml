@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+	<user>
+		<username>曹操</username>
+		<password>123</password>
+	</user>
+	<user>
+		<username>刘备</username>
+		<password>liubei</password>
+	</user>
+</users>

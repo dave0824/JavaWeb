@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Animals> 
+  <p1> 
+    <name>Pig</name>  
+    <eyes>TowPairs</eyes>  
+    <nose>One</nose>  
+    <sex>man</sex> 
+  </p1> 
+   <p1> 
+    <name>Dog</name>  
+    <mouth>a</mouth> 
+  </p1> 
+</Animals>

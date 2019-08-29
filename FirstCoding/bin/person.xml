@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<person>
+	<p1>
+		<name>superhero</name>
+		<age>20</age>
+		<sex>woman</sex>	
+	<birthday>22</birthday></p1>
+	<p2>
+		<name>dave</name>
+		<age>21</age>
+		<sex>man</sex>
+	</p2>
+</person>
